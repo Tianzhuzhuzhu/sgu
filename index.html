@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Programs in English at Komaba (PEAK)</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      flex-direction: column;
+    }
+    .button-container {
+      text-align: center;
+      display: flex;
+      justify-content: space-around;  /* 确保按钮水平排列 */
+      gap: 30px;  /* 设置按钮之间的间距 */
+      margin-bottom: 30px;  /* 让按钮组和下方按钮之间有间距 */
+    }
+    .button-container div {
+      text-align: center;
+    }
+    button {
+      background-color: #0073e6;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1.2em;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+    button:hover {
+      background-color: #005bb5;
+    }
+  </style>
+</head>
+<body>
+  <div class="button-container">
+    <!-- 第一组按钮：项目主页和申请要求 -->
+    <div>
+      <p>项目主页</p>
+      <button onclick="window.location.href='https://www.u-tokyo.ac.jp/en/prospective/undergraduate/peak.html'">Programs in English at Komaba (PEAK) Environmental Sciences</button>
+    </div>
+    <div>
+      <p>申请要求</p>
+      <button onclick="window.location.href='https://www.u-tokyo.ac.jp/en/prospective/undergraduate/peak.html'">Programs in English at Komaba (PEAK)</button>
+    </div>
+  </div>
+
+  <!-- 第二组按钮：没有文字 -->
+  <div class="button-container">
+    <div>
+      <button onclick="window.location.href='https://www.u-tokyo.ac.jp/en/prospective/undergraduate/peak.html'">Programs in English at Komaba (PEAK) Japan in East Asia</button>
+    </div>
+    <div>
+      <button onclick="window.location.href='https://www.u-tokyo.ac.jp/en/prospective/undergraduate/peak.html'">Programs in English at Komaba (PEAK)</button>
+    </div>
+  </div>
+</body>
+</html>
